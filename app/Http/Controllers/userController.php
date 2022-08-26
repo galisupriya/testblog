@@ -11,8 +11,8 @@ class userController extends Controller
     //
     function getData()
     {
-        return Test::all();
-        //return DB::select("select * from users");
-        echo "hello from user controller";
+        //return Test::all();
+        return DB::select("select * from users");
+        //echo "hello from user controller";
     }
 }
