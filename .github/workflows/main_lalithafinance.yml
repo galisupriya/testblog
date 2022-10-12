@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'lalithafinance'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C6FDB93DD5E64F29BDD5F142893DEDE0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E6043B2B3A14725987E8EF90965EB13 }}
           package: .
